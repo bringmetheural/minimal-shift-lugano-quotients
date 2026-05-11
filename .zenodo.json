@@ -9,5 +9,13 @@
   "license": "MIT",
   "access_right": "open",
   "upload_type": "software",
-  "version": "0.1.1"
+  "version": "0.1.2",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20128994",
+      "relation": "isNewVersionOf",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ]
 }

@@ -8,6 +8,8 @@ Independent researcher
 
 Repository: https://github.com/bringmetheural/minimal-shift-lugano-quotients
 
+DOI: https://doi.org/10.5281/zenodo.20128994
+
 ## Main result
 
 The SHIFT measurement is an eight-outcome product-basis measurement related to the Lugano causal witness.
@@ -59,6 +61,8 @@ python scripts/reproduce_all.py --out results
 This regenerates the core CSV tables and figures.
 
 ## Citation
+
+Please cite the archived release using DOI: https://doi.org/10.5281/zenodo.20128994.
 
 Please use the metadata in `CITATION.cff`.
 

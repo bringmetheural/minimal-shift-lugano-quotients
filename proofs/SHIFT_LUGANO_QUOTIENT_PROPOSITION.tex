@@ -1,0 +1,41 @@
+\begin{proposition}[Minimal quotient for the SHIFT/Lugano witness]
+Let \(L\) denote the eight-valued outcome of the SHIFT measurement and let
+\(C=f(L)\) denote the four-valued Lugano output class obtained by applying
+\(f(0)=f(1)=0\) and \(f(+)=f(-)=1\) componentwise. For uniformly distributed
+computational inputs, \(C\) is uniformly distributed over four values and equals
+the Lugano target \(w_L(a,b,c)\) with probability one.
+
+Let \(Y\) be any coarse-grained outcome obtained from \(L\) by an arbitrary
+stochastic channel \(P(Y|L)\), with \(|Y|\le m\). Then the optimal decoding
+success probability satisfies
+\[
+    P_{\rm succ}\le \frac{\min(m,4)}{4}.
+\]
+In particular, any coarse-graining with at most three outcomes cannot violate
+the Lugano causal bound \(3/4\), whereas the four-outcome quotient
+\(Y=C=f(L)\) achieves \(P_{\rm succ}=1\).
+\end{proposition}
+
+\begin{proof}
+For a decoder \(d:Y\to\{1,2,3,4\}\),
+\[
+P_{\rm succ}=\sum_y P(Y=y,C=d(y)).
+\]
+The optimal decoder chooses, for each \(y\), a class \(c_y\) maximizing
+\(P(Y=y,C=c)\), so
+\[
+P_{\rm succ}=\sum_y \max_c P(Y=y,C=c)
+            =\sum_y P(Y=y,C=c_y).
+\]
+Grouping terms by \(c_y\),
+\[
+P_{\rm succ}
+ = \sum_c \sum_{y:c_y=c} P(Y=y,C=c)
+ \le \sum_{c\in\{c_y:y\in Y\}} P(C=c).
+\]
+At most \(m\) classes appear in this last sum, and \(P(C=c)=1/4\) for each of
+the four Lugano classes. Therefore \(P_{\rm succ}\le m/4\) for \(m\le 4\),
+and \(P_{\rm succ}\le 1\) otherwise. The bound is achieved by the quotient
+measurement \(Y=f(L)\), which has four outcomes and preserves the Lugano
+target exactly.
+\end{proof}

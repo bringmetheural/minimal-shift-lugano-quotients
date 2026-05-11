@@ -1,0 +1,9 @@
+n_coarse_grained_outcomes_m,max_success_over_stochastic_coarse_grainings,formula_min_m4_over4,can_violate_3over4,can_reach_perfect
+1,0.25,0.25,False,False
+2,0.5,0.5,False,False
+3,0.75,0.75,False,False
+4,1.0,1.0,True,True
+5,1.0,1.0,True,True
+6,1.0,1.0,True,True
+7,1.0,1.0,True,True
+8,1.0,1.0,True,True

@@ -1,0 +1,13 @@
+{
+  "title": "Minimal quotients for the SHIFT/Lugano causal witness",
+  "creators": [
+    {
+      "name": "Lugin, Dmitry Alexandrovich"
+    }
+  ],
+  "description": "Reproducible manuscript, data, figures, and Python code for the paper Minimal quotients for the SHIFT/Lugano causal witness.",
+  "license": "MIT",
+  "access_right": "open",
+  "upload_type": "software",
+  "version": "0.1.1"
+}

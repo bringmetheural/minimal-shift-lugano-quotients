@@ -1,12 +1,10 @@
 cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
 title: "Minimal quotients for the SHIFT/Lugano causal witness"
-message: "If you use this repository, please cite the paper and this repository."
 authors:
-  - family-names: Lugin
-    given-names: Dmitry Alexandrovich
-    affiliation: "Independent researcher (no institutional affiliation)"
-year: 2026
-license: "MIT AND CC-BY-4.0"
+  - family-names: "Lugin"
+    given-names: "Dmitry Alexandrovich"
+version: "0.1.1"
+date-released: "2026-05-11"
 repository-code: "https://github.com/bringmetheural/minimal-shift-lugano-quotients"
 url: "https://github.com/bringmetheural/minimal-shift-lugano-quotients"
-abstract: "A reproducible manuscript and code package proving a minimal quotient bound for the SHIFT/Lugano causal witness."
